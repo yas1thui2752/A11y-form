@@ -1,0 +1,71 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+h1 {
+  color: #0069af;
+}
+  
+.App .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App .form__label {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.App .form__label--error {
+  color: rgb(235, 38, 38);
+}
+
+.App .form__input {
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 5px;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+.App .form__input--error {
+  border: 1px solid rgb(235, 38, 38);
+}
+
+.App .pwd__constraint {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  text-align: left;
+  font-size: 14px;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+.App .form__alert {
+  color: rgb(235, 38, 38);
+  font-size: 12px;
+  margin-top: -18px;
+  margin-bottom: 10px;
+  text-align: right;
+  font-weight: 500;
+}
+
+.App .form__submit {
+  width: 300px;
+  padding: 5px 10px;
+  background-color: #0069af;
+  border-radius: 5px;
+  border-color: transparent;
+  color: hsl(0, 100%, 100%);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
